@@ -21,7 +21,7 @@ void problem1_10()
 int main(int argc, char *argv[])
 {
     cout << "Project Euler Solutions!" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 
     problem1_10();
 

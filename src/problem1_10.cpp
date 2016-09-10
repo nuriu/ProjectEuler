@@ -24,7 +24,7 @@ void Problem1_10::Cozum1()
     }
 
     cout << "Solution 1\t:\t" << toplam << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 // ------------------------------------------------------------------------------------------------ //
@@ -39,53 +39,75 @@ void Problem1_10::Cozum1()
 void Problem1_10::Cozum2()
 {
     cout << "Problem 2\t\t:\tEven Fibonacci numbers" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+
+    unsigned long toplam = 0;
+    unsigned long n1 = 1, n2 = 2;
+
+    while(n1 < 4000000)
+    {
+        if (n1 % 2 == 0)
+        {
+            toplam += n1;
+        }
+
+        n2 = n1 + n2;
+        n1 = n2 - n1;
+    }
+
+    cout << "Solution 2\t:\t" << toplam << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
+// ------------------------------------------------------------------------------------------------ //
+// Problem 3: Largest prime factor                                                                  //
+//                                                                                                  //
+// The prime factors of 13195 are 5, 7, 13 and 29.                                                  //
+// What is the largest prime factor of the number 600851475143 ?                                    //
+// ------------------------------------------------------------------------------------------------ //
 void Problem1_10::Cozum3()
 {
     cout << "Problem 3\t\t:\tLargest prime factor" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum4()
 {
     cout << "Problem 4\t\t:\tLargest palindrome product" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum5()
 {
     cout << "Problem 5\t\t:\tSmallest multiple" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum6()
 {
     cout << "Problem 6\t\t:\tSum square difference" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum7()
 {
     cout << "Problem 7\t\t:\t10001st prime" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum8()
 {
     cout << "Problem 8\t\t:\tLargest product in a series" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum9()
 {
     cout << "Problem 9\t\t:\tSpecial Pythagorean triplet" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
 
 void Problem1_10::Cozum10()
 {
-    cout << "Problem 10\t\t:\tSummation of primes" << endl;
-    cout << "\t\t\t---\t\t---" << endl;
+    cout << "Problem 10\t:\tSummation of primes" << endl;
+    cout << "\t\t\t---------------------------" << endl;
 }
