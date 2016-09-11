@@ -1,8 +1,6 @@
-# Project Euler Çözümleri
+﻿# Project Euler Çözümleri
 --------------------
 
 ### Kişisel gelişim amacıyla geliştirilen Project Euler problem çözümleri.
 
-> Durum
-
-![Project Euler Durumum](https://projecteuler.net/profile/ezhoikam.png)
+Friend Key: 1023308_m6GgBfM4eN9Dt4IGzm9dVl7L0iEYRpbS
