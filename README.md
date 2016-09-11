@@ -1,3 +1,8 @@
 # Project Euler Çözümleri
-Kişisel gelişim amaçlı geliştirilen Project Euler problem çözümleri.
 --------------------
+
+### Kişisel gelişim amacıyla geliştirilen Project Euler problem çözümleri.
+
+> Durum
+
+![Project Euler Durumum](https://projecteuler.net/profile/ezhoikam.png)

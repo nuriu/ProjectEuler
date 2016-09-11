@@ -67,9 +67,29 @@ void Problem1_10::Cozum2()
 void Problem1_10::Cozum3()
 {
     cout << "Problem 3\t\t:\tLargest prime factor" << endl;
+
+    long long i = 0;
+    long long n = 600851475143;
+
+    for (i = 2; n > 1; i++)
+    {
+        while (n % i == 0)
+        {
+            n /= i;
+        }
+    }
+
+    cout << "Solution 3\t:\t" << i - 1 << endl;
     cout << "\t\t\t---------------------------" << endl;
 }
 
+// ------------------------------------------------------------------------------------------------ //
+// Problem 4: Largest palindrome product                                                            //
+//                                                                                                  //
+// A palindromic number reads the same both ways.                                                   //
+// The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.           //
+// Find the largest palindrome made from the product of two 3-digit numbers.                        //
+// ------------------------------------------------------------------------------------------------ //
 void Problem1_10::Cozum4()
 {
     cout << "Problem 4\t\t:\tLargest palindrome product" << endl;
