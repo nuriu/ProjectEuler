@@ -9,8 +9,8 @@ void problem1_10()
     // Problem1_10::Cozum1();
     // Problem1_10::Cozum2();
     // Problem1_10::Cozum3();
-    Problem1_10::Cozum4();
-    // Problem1_10::Cozum5();
+    // Problem1_10::Cozum4();
+    Problem1_10::Cozum5();
     // Problem1_10::Cozum6();
     // Problem1_10::Cozum7();
     // Problem1_10::Cozum8();

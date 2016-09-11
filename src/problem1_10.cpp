@@ -143,9 +143,50 @@ void Problem1_10::Cozum4()
 void Problem1_10::Cozum5()
 {
     cout << "Problem 5\t\t:\tSmallest multiple" << endl;
+
+    int sayi = 2520;
+    bool durum = false;
+
+    while (sayi)
+    {
+        if (sayi % 11 == 0 &&
+            sayi % 13 == 0 &&
+            sayi % 14 == 0 &&
+            sayi % 16 == 0 &&
+            sayi % 17 == 0 &&
+            sayi % 18 == 0 &&
+            sayi % 19 == 0 &&
+            sayi % 20 == 0)
+        {
+            durum = true;
+        }
+
+        if (durum == true)
+        {
+            break;
+        }
+        else
+        {
+            sayi += 2520;
+        }
+
+    }
+
+    cout << "Solution 5\t:\t" << sayi << endl;
     cout << "\t\t\t---------------------------" << endl;
 }
 
+// ------------------------------------------------------------------------------------------------ //
+// Problem 6: Sum square difference                                                                 //
+//                                                                                                  //
+// The sum of the squares of the first ten natural numbers is,                                      //
+//                                  12 + 22 + ... + 102 = 385                                       //
+// The square of the sum of the first ten natural numbers is,                                       //
+//                              (1 + 2 + ... + 10)2 = 552 = 3025                                    //
+// Hence the difference between the sum of the squares of the first ten natural numbers and         //
+// the square of the sum is 3025 − 385 = 2640. Find the difference between                          //
+// the sum of the squares of the first one hundred natural numbers and the square of the sum.       //
+// ------------------------------------------------------------------------------------------------ //
 void Problem1_10::Cozum6()
 {
     cout << "Problem 6\t\t:\tSum square difference" << endl;
