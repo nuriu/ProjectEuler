@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "problem1_10.hpp"
 
 using namespace std;
@@ -93,9 +94,52 @@ void Problem1_10::Cozum3()
 void Problem1_10::Cozum4()
 {
     cout << "Problem 4\t\t:\tLargest palindrome product" << endl;
+
+    int min = 99, max = 999, sonuc = 0, carpan1 = 0, carpan2 = 0;
+
+    for (int i = max; i > min; i--)
+    {
+        for (int j = i; j > min; j--)
+        {
+            int k = i * j;
+
+            if (k <= sonuc)
+            {
+                break;
+            }
+
+            std::string sayiString = std::to_string(k);
+            bool durum = true;
+
+            for (int l = 0, r = sayiString.size() - 1; l < r; l++, r--)
+            {
+                if (sayiString[l] != sayiString[r])
+                {
+                    durum = false;
+                    break;
+                }
+            }
+
+            if (durum)
+            {
+                sonuc = k;
+                carpan1 = i;
+                carpan2 = j;
+            }
+        }
+    }
+
+    cout << "Solution 4\t:\t" << carpan1 << " * " << carpan2 << " = " << sonuc << endl;
     cout << "\t\t\t---------------------------" << endl;
 }
 
+// ------------------------------------------------------------------------------------------------ //
+// Problem 5: Smallest multiple                                                                     //
+//                                                                                                  //
+// 2520 is the smallest number that can be                                                          //
+// divided by each of the numbers from 1 to 10 without any remainder.                               //
+// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?//
+// ------------------------------------------------------------------------------------------------ //
 void Problem1_10::Cozum5()
 {
     cout << "Problem 5\t\t:\tSmallest multiple" << endl;
