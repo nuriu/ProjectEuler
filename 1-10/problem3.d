@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------//
 // Problem 3: Largest prime factor                                            //
 //                                                                            //
-// What is the largest prime factor of the number 600851475143 ?              //
+// 600851475143 sayısının en büyük asal çarpanı kaçtır?                       //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -21,6 +21,6 @@ void main(string[] args)
         }
     }
 
-    writeln("Solution 3: ", i - 1);
+    writeln("Çözüm 3: ", i - 1);
 }
 

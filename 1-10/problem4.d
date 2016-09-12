@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------//
 // Problem 4: Largest palindrome product                                      //
 //                                                                            //
-// Find the largest palindrome made from the product of two 3-digit numbers.  //
+// 3 haneli iki sayının çarpımından oluşan en büyük palindrome değerini bul.  //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -46,6 +46,6 @@ void main(string[] args)
         }
     }
 
-    writeln("Solution 4: ", carpan1, " * ", carpan2, " = ", sonuc);
+    writeln("Çözüm 4: ", carpan1, " * ", carpan2, " = ", sonuc);
 }
 

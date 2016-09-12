@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------//
 // Problem 5: Smallest multiple                                               //
 //                                                                            //
-// Smallest positive number that is evenly divisible by numbers from 1 to 20? //
+// 1'den 20'ye tüm sayılara tam bölünen en küçük pozitif tam sayıyı bul.      //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -38,6 +38,6 @@ void main(string[] args)
 
     }
 
-    writeln("Solution 5: ", sayi);
+    writeln("Çözüm 5: ", sayi);
 }
 

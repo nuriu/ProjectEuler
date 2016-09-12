@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------//
 // Problem 1: Multiples of 3 and 5                                            //
 //                                                                            //
-// Find the sum of all the multiples of 3 or 5 below 1000.                    //
+// 1000 altındaki sayılardan 3 ve 5'in katları olanların toplamını bul.       //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -20,6 +20,6 @@ void main(string[] args)
         }
     }
 
-    writeln("Solution 1: ", toplam);
+    writeln("Çözüm 1: ", toplam);
 }
 

@@ -1,8 +1,8 @@
 // ---------------------------------------------------------------------------//
 // Problem 6: Sum square difference                                           //
 //                                                                            //
-// Find the difference between the sum of the                                 //
-// squares of the first one hundred natural numbers and the square of the sum.//
+// İlk 100 doğal sayının;                                                     //
+// Toplamlarının karesiyle karelerinin toplamı arasındaki farkı bul.          //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -21,6 +21,6 @@ void main(string[] args)
     toplam2 = toplam2 * toplam2;
     fark = toplam2 - toplam1;
 
-    writeln("Solution 6: ", fark);
+    writeln("Çözüm 6: ", fark);
 }
 

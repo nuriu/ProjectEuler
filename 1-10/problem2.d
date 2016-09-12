@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------//
 // Problem 2: Even Fibonacci numbers                                          //
 //                                                                            //
-// Find the sum of Fibonacci values do not exceed four million.               //
+// 4.000.000 altındaki çift Fibonacci değerlerinin toplamını bul.             //
 // ---------------------------------------------------------------------------//
 
 import std.stdio;
@@ -24,6 +24,6 @@ void main(string[] args)
         n1 = n2 - n1;
     }
 
-    writeln("Solution 2: ", toplam);
+    writeln("Çözüm 2: ", toplam);
 }
 
